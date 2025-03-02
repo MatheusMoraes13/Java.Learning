@@ -1,5 +1,7 @@
 package ElementosBasicos;
 
+import java.util.ArrayList;
+
 public class ElementosBasicos {
     
     public static void main(String[] args) {
@@ -18,7 +20,7 @@ public class ElementosBasicos {
                 System.out.println("\"int\" numero inteiro entre -2.147.483.683.648 a 2.147.483.683.648");
 
             long tipoLong;
-                System.out.println("\"double\" numeros gigantescos");
+                System.out.println("\"long\" numeros gigantescos");
 
         //Numeros decimais
             float tipoFloat;
@@ -43,18 +45,53 @@ public class ElementosBasicos {
 
         if (tipoInt == 1){
 
-                System.out.println("condicinal para que algo aconteca caso a condicao seja satisfeita");
+                System.out.println(" -if- condicinal para que algo aconteca caso a condicao seja satisfeita");
 
         } else{
             System.out.println("o -else- é o que acontecerá caso a condição não seja satisfeita");
         }
 
 
-            //loops
+
+            //Vetores
+
+        System.out.println("\n Os vetores são declarados pela variavel segudo de \"[]\" com o numero de posições.\n A contagem de posicoes é realizada a partir do elemento 0");
+
+        int vetInt[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        String vetString[] = {"Matheus","Teixeira","Moraes"};
+
+        System.out.println("Printando os elementos de um vetor de INT");
+        for (int i=0; i<10; i++){
+
+            System.out.println(vetInt[i]);
+
+        }
+        for (int i=0; i<3; i++){
+
+            System.out.println(vetString[i]);
+
+        }
+
+        System.out.println("Por outro lado, um vetor necessita ter seu tamanho definido,\ncaso deseje que seu vetor tenha um tamanho não definido,\nserá necessário o uso de outra forma de declaração");
+
+        ArrayList<String> arrayListStrings = new ArrayList<>();
+
+        arrayListStrings.add("\nPara adicionar um elemento basta utilizar o <nomedoarrey>.add");
         
+        System.out.println(arrayListStrings.get(0));
+
+        System.out.println("para remover um elemento, se utiliza <nomedoarrey>.remove, tendo como parametro ou a posicao ou o elemento");
+
+        arrayListStrings.remove(0);
+
+
+
+
+            //loops
+        System.out.println("loop \"For\" possibilita o controle dos pacos");
         for(int i=0; i < 4; i++){
 
-            System.out.println("loop utilizado quando há um numero definido de repetições");
+            
 
             System.out.println(tipoByte);
             tipoByte ++;
@@ -62,6 +99,15 @@ public class ElementosBasicos {
         }
 
 
+        while(true){
+            System.out.println("\"while\" é utilizado para que a verificação seja realizada antes da execuçao do bloco");
+            break;
+        }
+
+        do{
+            System.out.println("O loop \\\"do while\\\" executa pelo menos uma vez antes de testar a condição");
+            break;
+        }while(true);
     }
 
 }
