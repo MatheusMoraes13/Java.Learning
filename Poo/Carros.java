@@ -1,18 +1,16 @@
-package Poo;
+public class Carros {
 
-public Carros {
-
-    public char marca;
-    public char modelo;
-    public char cor;
+    public String marca;
+    public String modelo;
+    public String cor;
     public int preco;
 
-    public carro (char marca, char modelo, char cor, int preco){
+    public Carros (String marca, String modelo, String cor, int preco){
 
         this.marca = marca;
         this.modelo = modelo;
         this.cor = cor;
-        this.preco = preco
+        this.preco = preco;
 
     }
     
