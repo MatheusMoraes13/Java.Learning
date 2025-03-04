@@ -108,6 +108,16 @@ public class ElementosBasicos {
             System.out.println("O loop \\\"do while\\\" executa pelo menos uma vez antes de testar a condição");
             break;
         }while(true);
+    
+    System.out.println("\n\nPor fim, também podemos realizar um quest que será a realizacao da troca de valor de uma variavel de um tipo para o valor de outro tipo");
+
+    tipoString = "122";
+
+    tipoInt = Integer.parseInt(tipoString);
+    tipoStrig = String.valueOf(tipoInt);
+
+    System.out.println(tipoInt);
+    
     }
 
 }
