@@ -26,19 +26,16 @@ public class Concecionaria {
 
         Carros carros = new Carros (marca, modelo, cor, preco);
 
-        String nomeconcecionaria;
-        System.out.println("insira o nome da concecionaria a qual voce trabalha");
-        nomeconcecionaria = scan.nextLine();
+        Estoque estoque = new Estoque("Honda");
 
-        Estoque estoque = new Estoque(nomeconcecionaria);
+        estoque.adicionarEstoque(carros);
 
-        estoque = Estoque.AdicionarEstoque (carros);
-
-        System.out.println("nome da concecionaria = %s\nmarca do carro adicionado = %s" estoque.concecionaria, estoque.get(0);
+        estoque.printCarroEstoque(1);
 
 
         System.out.println("Marca do carro = " + carros.marca);
 
+        scan.close();
     }
     
 }

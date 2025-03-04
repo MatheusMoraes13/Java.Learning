@@ -1,19 +1,29 @@
-import javal.util.ArreyList
+import java.util.ArrayList;
 
 public class Estoque {
 
-    public ArreyList<Carros> estoqueCarros;
-    Carros carro;
+    public ArrayList<Carros> estoqueCarros;
+    public Carros carro;
+    public String nomeloja;
 
     public Estoque (String concecionaria){
 
-        this.concecionaria = estoqueCarros;
+        this.nomeloja = concecionaria;
+        this.estoqueCarros = new ArrayList<> ();
+
 
     }
 
-    public void AdicionarEstoque (Carros carro){
+    public void adicionarEstoque (Carros carro){
 
     this.estoqueCarros.add (carro);
+
+    }
+
+    public void printCarroEstoque (int id){
+
+        System.out.println("carro pesquisado, referente ao ID"+ id + "é = "+ estoqueCarros.get(id));
+
 
     }
     
