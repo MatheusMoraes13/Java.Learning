@@ -3,7 +3,6 @@ import java.util.ArrayList;
 public class Estoque {
 
     public ArrayList<Carros> estoqueCarros;
-    public Carros carro;
     public String nomeloja;
 
     public Estoque (String concecionaria){
@@ -22,7 +21,13 @@ public class Estoque {
 
     public void printCarroEstoque (int id){
 
-        System.out.println("carro pesquisado, referente ao ID"+ id + "é = "+ estoqueCarros.get(id));
+        Carros carroprint = estoqueCarros.get(id);
+
+        System.out.println("Marca: "+ carroprint.marca);
+        System.out.println("Modelo: "+ carroprint.modelo);
+        System.out.println("cor: "+ carroprint.cor);
+        System.out.println("preco: "+ carroprint.preco);
+
 
 
     }

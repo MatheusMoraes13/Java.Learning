@@ -30,10 +30,7 @@ public class Concecionaria {
 
         estoque.adicionarEstoque(carros);
 
-        estoque.printCarroEstoque(1);
-
-
-        System.out.println("Marca do carro = " + carros.marca);
+        estoque.printCarroEstoque(0);
 
         scan.close();
     }
