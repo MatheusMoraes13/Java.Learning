@@ -1,11 +1,10 @@
 import Models.Person;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         
-        Person male = new Person();
+        Person male = new Person("Matheus Moraes");
 
-        male.setName("Matheus Moraes");
         male.setAge(20);
 
         System.out.println("Pessoa Cadastrada:");
