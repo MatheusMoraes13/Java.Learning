@@ -1,3 +1,5 @@
+package Models;
+
 public class Pet {
 
     private final String nome;
@@ -16,7 +18,7 @@ public class Pet {
         return clean;
     }
 
-    public boolean setClean(boolean clean) {
+    public void setClean (boolean clean) {
         this.clean = clean;
     }
 }

@@ -2,10 +2,14 @@ package Models;
 
 public class Maquina {
 
-    private int water;
-    private boolean clean;
-    private int shampoo;
+    private int water = 30;
+    private boolean clean = true;
+    private int shampoo = 10;
     private Pet pet;
+
+    public Maquina (){
+
+    }
 
     public void takeAShouwer(){
         if (this.pet == null){
@@ -80,7 +84,7 @@ public class Maquina {
         this.shampoo -= 2;
         this.clean =true;
 
-        System.out.println("A máquina está limpa");
+        System.out.println("A máquina foi limpa");
     }
 
 }
