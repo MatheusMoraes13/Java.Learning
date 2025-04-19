@@ -1,11 +1,33 @@
-public class main {
+public class Main {
     public static void main(String[] args) {
-        Employee employee = new Employee();
-        Manager manager = new Manager();
 
-        manager.setName("Brenda Ferreira Marques");
-        employee.setName("Matheus Teixeira Moraes");
+//Utilizando a função print a partir de uma nova instancia para um Vendedor e um Gerente, respectivamente.
+        printEmployee(new Salesman());
+        printEmployee(new Manager());
 
-        System.out.println(manager.getName());
+        
+        
     }
+
+    public static void printEmployee(Employee employee){
+//Realizando o casting para que o tipo de variável seja alterado de "Employee" para "Manager" ou "Salesman". 
+
+        if (employee instanceof Manager){
+
+            
+            ((Manager)employee).setName("Brenda Ferreira Marques");
+            System.out.println(employee.getName());
+
+        }
+
+        if (employee instanceof Salesman){
+
+            ((Salesman)employee).setName("Matheus Teixeira Moraes");
+            System.out.println(employee.getName());
+
+        }
+
+        
+    }
+    
 }

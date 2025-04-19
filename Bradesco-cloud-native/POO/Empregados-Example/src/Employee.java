@@ -1,4 +1,4 @@
-public class Employee {
+public abstract class Employee{
     private String code;
 
     private String name;
@@ -38,5 +38,5 @@ public class Employee {
     public double getSalary() {
         return salary;
     }
-    
+
 }
