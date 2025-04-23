@@ -1,5 +1,11 @@
 package models;
 
-public abstract class MusicPlayer {
+public interface MusicPlayer {
+
+    public void stopMusic();
+
+    public void playMusic();
+
+    public void selectMusic(String musicName);
 
 }

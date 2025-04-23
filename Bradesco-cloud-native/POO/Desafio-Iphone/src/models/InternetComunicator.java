@@ -1,5 +1,10 @@
 package models;
 
-public abstract class InternetComunicator {
+public interface InternetComunicator {
+    public void showPage();
 
+    public void updateTab();
+
+    public void addTab();
+    
 }
