@@ -1,4 +1,4 @@
-package OrdenacaoPessoas.models;
+package models;
 
 import java.util.ArrayList;
 import java.util.Collections;

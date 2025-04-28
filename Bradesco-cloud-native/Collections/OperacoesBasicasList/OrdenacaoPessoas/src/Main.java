@@ -1,4 +1,4 @@
-import OrdenacaoPessoas.models.OrdenacaoPessoa;
+import models.OrdenacaoPessoa;
 
 public class Main {
     public static void main(String[] args) throws Exception {
@@ -9,7 +9,7 @@ public class Main {
         ordenacaoPessoa.adicionarPessoa("Antonia Margareth Teixeira Moraes", 49, 1.56);
         ordenacaoPessoa.adicionarPessoa("Marzo de Vasconcelos Moraes", 50, 1.75);
 
-        System.out.println(ordenacaoPessoa.ordenadoPorIdade());
-        System.out.println(ordenacaoPessoa.ordenarPorAltura());
+        //System.out.println(ordenacaoPessoa.ordenadoPorIdade());
+        //cleaSystem.out.println(ordenacaoPessoa.ordenarPorAltura());
     }
 }
