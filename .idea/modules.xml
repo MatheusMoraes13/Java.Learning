@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Bradesco-cloud-native/Collections/OperacoesBasicasList/AgendaDeContatos/AgendaDeContatos.iml" filepath="$PROJECT_DIR$/Bradesco-cloud-native/Collections/OperacoesBasicasList/AgendaDeContatos/AgendaDeContatos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bradesco-cloud-native/Collections/OperacoesBasicasList/AgendaDeContatosMap/AgendaDeContatosMap.iml" filepath="$PROJECT_DIR$/Bradesco-cloud-native/Collections/OperacoesBasicasList/AgendaDeContatosMap/AgendaDeContatosMap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bradesco-cloud-native/Collections/OperacoesBasicasList/AgendaDeEventos/AgendaDeEventos.iml" filepath="$PROJECT_DIR$/Bradesco-cloud-native/Collections/OperacoesBasicasList/AgendaDeEventos/AgendaDeEventos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BasicReviewing/BasicReviewing.iml" filepath="$PROJECT_DIR$/BasicReviewing/BasicReviewing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bradesco-cloud-native/Collections/OperacoesBasicasList/CadastroDeProdutos/CadastroDeProdutos.iml" filepath="$PROJECT_DIR$/Bradesco-cloud-native/Collections/OperacoesBasicasList/CadastroDeProdutos/CadastroDeProdutos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bradesco-cloud-native/Collections/OperacoesBasicasList/CarrinhoCompras/CarrinhoCompras.iml" filepath="$PROJECT_DIR$/Bradesco-cloud-native/Collections/OperacoesBasicasList/CarrinhoCompras/CarrinhoCompras.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bradesco-cloud-native/POO/Carro-Example/Carro-Example.iml" filepath="$PROJECT_DIR$/Bradesco-cloud-native/POO/Carro-Example/Carro-Example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bradesco-cloud-native/Collections/OperacoesBasicasList/CatalagoLivros/CatalagoLivros.iml" filepath="$PROJECT_DIR$/Bradesco-cloud-native/Collections/OperacoesBasicasList/CatalagoLivros/CatalagoLivros.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bradesco-cloud-native/Collections/Collections.iml" filepath="$PROJECT_DIR$/Bradesco-cloud-native/Collections/Collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bradesco-cloud-native/Collections/ComparablexComparator/ComparablexComparator.iml" filepath="$PROJECT_DIR$/Bradesco-cloud-native/Collections/ComparablexComparator/ComparablexComparator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bradesco-cloud-native/Collections/OperacoesBasicasList/Convidado/Convidado.iml" filepath="$PROJECT_DIR$/Bradesco-cloud-native/Collections/OperacoesBasicasList/Convidado/Convidado.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bradesco-cloud-native/POO/Desafio-Iphone/Desafio-Iphone.iml" filepath="$PROJECT_DIR$/Bradesco-cloud-native/POO/Desafio-Iphone/Desafio-Iphone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bradesco-cloud-native/POO/Empregados-Example/Empregados-Example.iml" filepath="$PROJECT_DIR$/Bradesco-cloud-native/POO/Empregados-Example/Empregados-Example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bradesco-cloud-native/Collections/OperacoesBasicasList/EstoqueDeProdutosComPreco/EstoqueDeProdutosComPreco.iml" filepath="$PROJECT_DIR$/Bradesco-cloud-native/Collections/OperacoesBasicasList/EstoqueDeProdutosComPreco/EstoqueDeProdutosComPreco.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bradesco-cloud-native/POO/Exemplo-Pacotes-Example/Exemplo-Pacotes-Example.iml" filepath="$PROJECT_DIR$/Bradesco-cloud-native/POO/Exemplo-Pacotes-Example/Exemplo-Pacotes-Example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bradesco-cloud-native/Collections/GenericsType/GenericsExempleList/GenericsExempleList.iml" filepath="$PROJECT_DIR$/Bradesco-cloud-native/Collections/GenericsType/GenericsExempleList/GenericsExempleList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bradesco-cloud-native/Collections/GenericsType/GenericsExempleMap/GenericsExempleMap.iml" filepath="$PROJECT_DIR$/Bradesco-cloud-native/Collections/GenericsType/GenericsExempleMap/GenericsExempleMap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bradesco-cloud-native/Collections/GenericsType/GenericsExempleSet/GenericsExempleSet.iml" filepath="$PROJECT_DIR$/Bradesco-cloud-native/Collections/GenericsType/GenericsExempleSet/GenericsExempleSet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bradesco-cloud-native/POO/Ingressos-Cinema/Ingressos-Cinema.iml" filepath="$PROJECT_DIR$/Bradesco-cloud-native/POO/Ingressos-Cinema/Ingressos-Cinema.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java.Learning.iml" filepath="$PROJECT_DIR$/Java.Learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bradesco-cloud-native/POO/Maquina-Lavar-Pets-Example/Maquina-Lavar-Pets-Example.iml" filepath="$PROJECT_DIR$/Bradesco-cloud-native/POO/Maquina-Lavar-Pets-Example/Maquina-Lavar-Pets-Example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bradesco-cloud-native/POO/MusicPlayer/MusicPlayer.iml" filepath="$PROJECT_DIR$/Bradesco-cloud-native/POO/MusicPlayer/MusicPlayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bradesco-cloud-native/Collections/OperacoesBasicasList/OperacoesBasicasList.iml" filepath="$PROJECT_DIR$/Bradesco-cloud-native/Collections/OperacoesBasicasList/OperacoesBasicasList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bradesco-cloud-native/Collections/OperacoesBasicasList/OrdenacaoPessoas/OrdenacaoPessoas.iml" filepath="$PROJECT_DIR$/Bradesco-cloud-native/Collections/OperacoesBasicasList/OrdenacaoPessoas/OrdenacaoPessoas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bradesco-cloud-native/POO/Person-Example/Person-Example.iml" filepath="$PROJECT_DIR$/Bradesco-cloud-native/POO/Person-Example/Person-Example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bradesco-cloud-native/Collections/OperacoesBasicasList/SomaNumeros/SomaNumeros.iml" filepath="$PROJECT_DIR$/Bradesco-cloud-native/Collections/OperacoesBasicasList/SomaNumeros/SomaNumeros.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bradesco-cloud-native/Stream-API/Stream-API.iml" filepath="$PROJECT_DIR$/Bradesco-cloud-native/Stream-API/Stream-API.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bradesco-cloud-native/Aprendendo-a-Sintaxe-Java/anatomia-das-classes/anatomia-das-classes.iml" filepath="$PROJECT_DIR$/Bradesco-cloud-native/Aprendendo-a-Sintaxe-Java/anatomia-das-classes/anatomia-das-classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bradesco-cloud-native/Aprendendo-a-Sintaxe-Java/desafio-conta-banco/desafio-conta-banco.iml" filepath="$PROJECT_DIR$/Bradesco-cloud-native/Aprendendo-a-Sintaxe-Java/desafio-conta-banco/desafio-conta-banco.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bradesco-cloud-native/Aprendendo-a-Sintaxe-Java/desafio-controle-fluxo/desafio-controle-fluxo.iml" filepath="$PROJECT_DIR$/Bradesco-cloud-native/Aprendendo-a-Sintaxe-Java/desafio-controle-fluxo/desafio-controle-fluxo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bradesco-cloud-native/Aprendendo-a-Sintaxe-Java/processo-seletivo/processo-seletivo.iml" filepath="$PROJECT_DIR$/Bradesco-cloud-native/Aprendendo-a-Sintaxe-Java/processo-seletivo/processo-seletivo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bradesco-cloud-native/Aprendendo-a-Sintaxe-Java/tratamento-excecoes/tratamento-excecoes.iml" filepath="$PROJECT_DIR$/Bradesco-cloud-native/Aprendendo-a-Sintaxe-Java/tratamento-excecoes/tratamento-excecoes.iml" />
+    </modules>
+  </component>
+</project>
