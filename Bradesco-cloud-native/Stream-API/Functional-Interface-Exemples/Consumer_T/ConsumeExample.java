@@ -19,6 +19,10 @@ public class ConsumeExample {
             }
         };
 
-        numeros.stream().forEach(imprimirNumeroPar);
+        numeros.forEach(n -> {
+                if(n % 2 == 0){
+                    System.out.println(n);
+                }
+        });
      }
 }
