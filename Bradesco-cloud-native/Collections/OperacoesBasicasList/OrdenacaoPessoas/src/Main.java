@@ -9,7 +9,7 @@ public class Main {
         ordenacaoPessoa.adicionarPessoa("Antonia Margareth Teixeira Moraes", 49, 1.56);
         ordenacaoPessoa.adicionarPessoa("Marzo de Vasconcelos Moraes", 50, 1.75);
 
-        //System.out.println(ordenacaoPessoa.ordenadoPorIdade());
+        System.out.println(ordenacaoPessoa.ordenadoPorIdade());
         //cleaSystem.out.println(ordenacaoPessoa.ordenarPorAltura());
     }
 }
