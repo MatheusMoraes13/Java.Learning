@@ -27,7 +27,19 @@ public abstract class Conta {
     }
 
     public void sacar(double valor){
-        this.saldo += valor;
+        this.saldo -= valor;
+    }
+
+    public void trasferir(double valor, Conta contaDestino){
+        this.sacar(valor);
+        contaDestino.depositar(valor);
+    }
+
+    public void imprimirExtrato(){
+        System.out.println("=== Extrato Conta Corrente ===");
+        System.out.println("Agencia: "+ agencia);
+        System.out.println("Numero: "+ numero);
+        System.out.println("Saldo: R$"+ saldo);
     }
 
     @Override

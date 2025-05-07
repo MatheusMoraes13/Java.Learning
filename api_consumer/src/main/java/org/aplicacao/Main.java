@@ -18,7 +18,6 @@ public class Main {
         }
 
         System.out.println(apiservice.getAddres(cep));
-        System.out.println(apiservice.getAddres("68350393"));
 
     }
 }
