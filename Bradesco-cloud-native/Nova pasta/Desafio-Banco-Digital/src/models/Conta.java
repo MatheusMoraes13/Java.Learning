@@ -4,13 +4,10 @@ public abstract class Conta {
     private int agencia;
     private int numero;
     private double saldo;
-    private String tipoConta;
 
-    public Conta (int agencia, int numero, double saldo, String tipoConta){
+    public Conta (int agencia, int numero){
         this.agencia = agencia;
         this.numero = numero;
-        this.saldo = saldo;
-        this.tipoConta = tipoConta;
     }
 
     public int getAgencia() {
@@ -25,10 +22,6 @@ public abstract class Conta {
         return saldo;
     }
 
-    public String getTipoConta() {
-        return tipoConta;
-    }
-
     public void depositar(double valor){
         this.saldo += valor;
     }
@@ -39,8 +32,7 @@ public abstract class Conta {
 
     @Override
     public String toString() {
-        return "\nConta [agencia=" + agencia + ", numero=" + numero + ", saldo=" + saldo + ", tipoConta=" + tipoConta
-                + "]";
+        return "\nConta [agencia=" + agencia + ", numero=" + numero + ", saldo=" + saldo + "]";
     }
     
 }
