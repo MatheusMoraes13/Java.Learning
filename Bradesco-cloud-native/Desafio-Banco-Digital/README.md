@@ -1,18 +1,17 @@
-## Getting Started
+# Desafio Conta Banco
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Repositório referente ao desafio conta banco do Bootcamp Bradesco Cloud Native
 
-## Folder Structure
+## No banco teremos 3 classes principais:
 
-The workspace contains two folders by default, where:
+### Banco:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Adicionar conta Corrente e Poupanca.
+- Imprimir uma conta a partir de seu numero.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### Conta Corrente e Poupanca
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Criar uma nova conta
+- Depositar
+- Sacar
+- Transferir
