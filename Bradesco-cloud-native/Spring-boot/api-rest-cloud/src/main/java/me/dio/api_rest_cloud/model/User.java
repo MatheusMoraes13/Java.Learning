@@ -5,9 +5,9 @@ import lombok.Getter;
 import lombok.Setter;
 import java.util.List;
 
-@Getter
-@Setter
+
 @Entity(name = "tab_user")
+@Getter @Setter
 public class User {
 
     @Id
