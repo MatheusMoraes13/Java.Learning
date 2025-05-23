@@ -22,15 +22,16 @@ Este repositório tem como propósito:
 A estrutura do repositório é organizada da seguinte forma:
 
 ```
-📦Java.Learning
- ┣ 📁BasicReviewing
- ┃ ┗ 📄...
- ┣ 📁Bradesco-cloud-native
- ┃ ┗ 📄...
- ┣ 📁EstoqueCarros
- ┃ ┗ 📄...
- ┣ 📄.gitattributes
- ┗ 📄README.md
+📦Java.Learning/
+├── api-consumer/
+├── basic-review/
+├── bradesco-cloud-native/
+├── estoque-carros/
+├── .gitattributes
+├── .gitignore
+├── Java.Learning.iml
+└── readme.md
+
 ```
 
 * **BasicReviewing**: Códigos e exercícios iniciais para revisão dos conceitos básicos de Java.
@@ -58,9 +59,10 @@ Para começar a explorar os projetos:
 
 ## 📚 Tecnologias Utilizadas
 
-* Java 17+
-* IDEs: IntelliJ IDEA, Eclipse ou VSCode
+* Java 21+
+* IDEs: IntelliJ IDEA
 * Maven (para gerenciamento de dependências e build)
+* PostgreSQL (para persistencia de dados para alguns projetos)
 
 ---
 
