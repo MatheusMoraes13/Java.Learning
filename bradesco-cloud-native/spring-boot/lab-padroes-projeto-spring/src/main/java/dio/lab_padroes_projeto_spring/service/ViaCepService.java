@@ -10,4 +10,5 @@ public interface ViaCepService {
 
     @GetMapping("/{cep}/json/")
     Endereco consultarCep(@PathVariable("cep") String cep);
+
 }
