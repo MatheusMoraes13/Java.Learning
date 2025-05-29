@@ -19,19 +19,84 @@ Este repositório tem como propósito:
 
 ## 🗂 Estrutura do Repositório
 
-A estrutura do repositório é organizada da seguinte forma:
+A estrutura do repositório é organizada da seguinte forma:\
+[Clique para ir para a Estrutura com LINKS](#estrutura-com-links)
 
 ```
-📦Java.Learning/
-├── api-consumer/
-├── basic-review/
-├── bradesco-cloud-native/
-├── estoque-carros/
-├── .gitattributes
-├── .gitignore
-├── Java.Learning.iml
-└── readme.md
-
+📦 Java.Learning/
+|
+├─── api-consumer/
+├─── estoque-carros/
+├─── basic-review/
+|   |
+│   ├─── calculadora-simples/
+│   ├─── elementos-basicos/
+│   ├─── hello-world/
+│   └─── poo/
+|
+└─── bradesco-cloud-native/
+    |
+    ├─── aprendendo-sintaxe-java/
+    │   ├─── anatomia-das-classes/
+    │   ├─── desafio-conta-banco/
+    │   ├─── desafio-controle-fluxo/
+    │   └─── processo-seletivo/
+    |
+    ├─── cloud/
+    │   └─── lab-localizando-servicos-categoria/
+    |
+    ├─── collections/
+    │   ├─── comparable-x-comparator/
+    │   ├─── generics-type/
+    │   │   ├─── exemplo-generics-list/
+    │   │   ├─── exemplo-generics-map/
+    │   │   └─── exemplo-generics-set/
+    |   |
+    │   └─── operacoes-basicas-list/
+    │       ├─── exemplo-agenda-contatos/
+    │       ├─── exemplo-agenda-contatos-map/
+    │       ├─── exemplo-agenda-eventos/
+    │       ├─── exemplo-cadastro-produtos/
+    │       ├─── exemplo-carrinho-compras/
+    │       ├─── exemplo-catalago-livros/
+    │       ├─── exemplo-convidado/
+    │       ├─── exemplo-estoque-produtos-preco/
+    │       ├─── exemplo-lista-tarefas/
+    │       ├─── exemplo-ordenacao-pessoas/
+    │       └─── exemplo-soma-numeros/
+    |
+    ├─── desafio-banco-digital/
+    ├─── desafio-data-base/
+    │   └─── desfio-board/
+    |
+    ├─── desafio-iphone/
+    ├─── desafio-sudoku/
+    ├─── poo/
+    │   ├─── exemplo-carro/
+    │   ├─── exemplo-empregados/
+    │   ├─── exemplo-ingressos-cinema/
+    │   ├─── exemplo-maquina-lavar-pets/
+    │   ├─── exemplo-music-player/
+    │   ├─── exemplo-pacotes/
+    │   └─── exemplo-person/
+    |
+    ├─── spring-boot/
+    │   ├─── api-rest-cloud/
+    │   ├─── design-patterns-java-puro/
+    │   ├─── dio-spring-security/
+    │   ├─── dio-spring-security-jwt/
+    │   ├─── lab-padroes-projeto-spring/
+    │   ├─── my-first-web-api/
+    │   ├─── primeiros-passos/
+    │   └─── projeto-spring-boot/
+    |
+    └─── stream-api/
+        └─── exemplos-funcional-interfaces/
+            ├─── exemplo-binary-operator/
+            ├─── exemplo-consumer/
+            ├─── exemplo-function/
+            ├─── exemplo-predicate/
+            └─── exemplo-supplier/
 ```
 
 * **BasicReviewing**: Códigos e exercícios iniciais para revisão dos conceitos básicos de Java.
