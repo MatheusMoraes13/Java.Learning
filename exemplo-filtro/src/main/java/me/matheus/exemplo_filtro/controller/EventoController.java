@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/eventos")
+@CrossOrigin(origins = "*")
 public class EventoController {
 
     EventoService eventoService;
