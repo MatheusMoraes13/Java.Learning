@@ -1,6 +1,6 @@
 # Desafio Conta Banco
 
-Repositório referente ao desafio conta banco do Bootcamp Bradesco Cloud Native
+Repositório referente ao desafio Simulando Uma Conta Bancária Através Do Terminal/Console
 
 ## No banco teremos 3 classes principais:
 
