@@ -2,11 +2,15 @@ package me.moraes.series;
 
 import me.moraes.series.model.DadosEpisodios;
 import me.moraes.series.model.DadosSerie;
+import me.moraes.series.model.DadosTemporada;
 import me.moraes.series.service.ConsumoApi;
 import me.moraes.series.service.ConveteDados;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @SpringBootApplication
 public class SeriesApplication implements CommandLineRunner {
@@ -27,5 +31,15 @@ public class SeriesApplication implements CommandLineRunner {
         System.out.println(dados);
         System.out.println("\n===========================\n");
         System.out.println(dadosEpisodios);
+
+        List<DadosTemporada> temporadas = new ArrayList<DadosTemporada>();
+
+        for (int i = 1; i <= dados.totalTemporadas(); i++){
+            var jsonTemporadas = consumoApi.obterDados("https://www.omdbapi.com/?t=gilmore+girls&season=" + i + "&apikey=6585022c");
+            DadosTemporada dadosTemporada = conversor.obterDados(jsonTemporadas, DadosTemporada.class);
+            temporadas.add(dadosTemporada);
+        }
+
+        temporadas.forEach(System.out::println);
     }
 }
